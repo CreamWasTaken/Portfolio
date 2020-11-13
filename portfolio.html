@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jamin Paul Sapalo </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script type="text/javascript">
+		
+		function nbAboutme(){
+          document.getElementById("headerText").innerHTML = "About Me";
+          document.getElementById("p1").innerHTML = "I am 18 Years Old, Born on July 6 2002. My Main Language is Java and Javascript. a Future android and Javascript Developer";
+
+          console.log("head1");
+		}
+
+		function nbSchool(){
+			document.getElementById("headerText").innerHTML = "School";
+			 document.getElementById("p1").innerHTML = "Graduated Elementary from E.L Jayme Elementary School, Junior Highschool in bacolod City National highschool and currently Senior Highschool in STI West Negros University";
+			 console.log("school gana");
+		}
+      
+
+
+	</script>
+
+	<style type="text/css">
+
+		html{
+          font-size: 27px;
+          box-sizing: border-box;
+          scroll-behavior: smooth;
+		}
+		
+         main{
+         	background-color: black;
+         }
+         .sti{
+         	text-decoration: underline;
+         	text-decoration-color: red;
+         }
+         
+	</style>
+</head>
+<body>
+
+<header>
+   	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+   		<ul class="navbar-nav">
+   			<li class="nav-item"> 
+   				<a href="#headerText" class="nav-link" onclick="nbAboutme()">About me</a>
+   			</li>
+   			<li class="nav-item"> 
+   				<a href="#headerText" class="nav-link onclick" onclick="nbSchool()">School</a>
+   			</li>
+   			<li class="nav-item"> 
+   				<a href="#proj" class="nav-link">Projects</a>
+   			</li>
+   		</ul>
+   	</nav>
+    
+   <div class="bg-dark">
+
+    	<h1 class="heading-primary text-center text-light">
+          <!-- Replace the following name with your name -->
+          <span>Jamin Paul Sapalo</span>
+        </h1>
+        <p class="h4 text-center text-light">Soon to be a Javascript and Android developer based in Bacolod,Philippines</p>
+  </div>
+ </header>
+
+
+
+ <main class="container-fluid text-light" id="abot ">
+ 
+  	  <section class="aboutMe text-center">
+          <div>
+             <h1 id="headerText">Use The Navigation Above</h1>
+             <p id="p1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius</p>
+          </div>
+  	 
+       <br>
+       <br>
+       <br>   <!-- haha line break goes brbrbrbrbrbrbrbrbrbrbrbr -->
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+  	  <section>
+  		  <div class="text-left" id="proj">
+  		  	  <h1 >Projects</h1>
+  		  	   <a href="https://github.com/CreamWasTaken/Share-The-Idea/tree/master" target="_blank" class="h3 sti">Share The Idea</a>
+  		  	   <p>Online Tutor Booking app</p>
+  		  	   <ul>
+  		  	   	<li>Android Studio</li>
+  		  	   	<li>Java</li>
+  		  	   	<li>SQLite</li>
+  		  	   </ul>
+
+  		  	   <br>
+
+  		  	   <a href="https://github.com/CreamWasTaken/Random-Sauce-Generator" target="_blank" class="sti h3">Random Sauce Generator</a>
+  		  	   <p> A random code generator for a Doujin Website</p>
+  		  	   <ul>
+  		  	   	 <li>Android Studio</li>
+                  <li>Java</li>
+  		  	   </ul>
+
+  		  	   <br>
+
+  		  	   <a href="https://github.com/CreamWasTaken/Stoplight" target="_blank" class="h3 sti">StopLight</a>
+  		  	   <p>a Stoplight Laboratory activity</p>
+  		  	   <ul>
+  		  	    <li>Javascript</li>
+  		  	    <li>HTML5</li>
+  		  	    </ul>
+  		  </div>
+  	  </section>
+    
+ </main>
+
+  
+</body>
+</html>
